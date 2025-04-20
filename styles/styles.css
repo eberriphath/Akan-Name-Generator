@@ -17,35 +17,36 @@ h1 {
     border-radius: 15px;
     margin-top: 30px;
     background-color: rgb(100, 97, 97);
-    
-
 }
+
 .p1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 body {
     background: linear-gradient(grey,yellow);
 }
 
+
 h2 {
     text-align: center;
     text-decoration: underline;
-
 }
+
 
 .table {
     text-align: center;
     border: 1px solid black;
+    border-radius: 10px;
 }
+
 
 .btn1 {
     display: block;
     margin: auto;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
 }
+
 
 .about2 {
     border: 1px solid black;
@@ -54,6 +55,7 @@ h2 {
     text-align: center;
     margin-top: 30px;
 }
+
 
 .container {
     display: flex;
