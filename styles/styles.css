@@ -25,7 +25,18 @@ h1 {
 .p1 {
     font-family: fantasy;
 }
+
 body {
-    background: linear-gradient(to right,#36013F,#228B22,#000080);
+    background: linear-gradient(white,grey);
 }
+
+h2 {
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+    border: 1px solid black;
+}
+
 
