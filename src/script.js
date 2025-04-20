@@ -2,6 +2,7 @@ document.getElementById("Form").addEventListener("submit", function (event) {
     event.preventDefault();
   
     const day = parseInt(document.getElementById("day").value);
+
     const month = parseInt(document.getElementById("month").value);
     const year = parseInt(document.getElementById("year").value);
     const gender = document.querySelector("input[name='gender']:checked");
@@ -34,10 +35,10 @@ document.getElementById("Form").addEventListener("submit", function (event) {
   
     const name = gender.value === "male" ? maleNames[dayOfWeek] : femaleNames[dayOfWeek];
   
-    document.getElementById("result").innerText = `Born on ${getDayName(dayOfWeek)}. Akan name is ${name}.`;
+    document.getElementById("result").innerText = `Born on ${showDayName(dayOfWeek)}. Akan name is ${name}.`;
   });
   
-  function getDayName(index) {
+  function showDayName(index) {
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     return days[index];
   }
