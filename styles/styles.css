@@ -24,14 +24,17 @@ h1 {
 }
 .p1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 body {
-    background: linear-gradient(white,grey);
+    background: linear-gradient(grey,yellow);
 }
 
 h2 {
     text-align: center;
+    text-decoration: underline;
+
 }
 
 .table {
