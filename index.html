@@ -21,9 +21,8 @@
             <P class="p1">About This Website;</P>
             <P>
                 In Akan culture from Ghana, names are often given based on the day of the week a person is born.<br>
-                These names carry deep cultural meaning,connecting individuals to their identity,values and heritage.<br>
-                This website helps you discover your Akan name based on your birth day.<br>
-                Whether you're exploring your roots or just curious,it's a fun way to learn more about this beautiful West African tradition.</P>
+                These names carry meaning,connecting individuals to their identity,values and heritage.<br>
+                This website helps you discover your Akan name based on your birth day.</P>
             <P>Here are some of the Akan names:</P>
             <section class="table">
             <P class="p2">
@@ -81,7 +80,33 @@
 
     <!-- SUBMIT FORM -->
     <section>
-        <!-- Display Akan name -->
+        <div class="container">
+            <p>Enter your birthdate and gender:</p>
+        
+            <form id="Form">
+              <label for="day">Day of Birth:</label>
+              <input type="number" id="day" name="day" min="1" max="31" required>
+        
+              <label for="month">Month of Birth:</label>
+              <input type="number" id="month" name="month" min="1" max="12" required>
+        
+              <label for="year">Year of Birth:</label>
+              <input type="number" id="year" name="year" required>
+        
+              <label>Gender:</label>
+              <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+        
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+              </div>
+        
+              <button type="submit" class="btn1">Akan Name</button>
+            </form>
+        
+            <div id="result"></div>
+          </div>
         
     </section>
 
@@ -89,9 +114,9 @@
     <section>
         <P><h2>How It Works</h2>
             User Input -
-            The user provides their date of birth and optionally their gender.<br>
+            The user provides their date of birth and gender.<br>
             Day of the Week Calculation - 
-            The system uses a date algorithm to compute the day of the week (e.g., Monday, Tuesday) for the given birthdate.<br>
+            The system calculates the day of the week (e.g., Monday, Tuesday) for the given birthdate.<br>
             Akan Name Assignment - 
             Based on the calculated day and selected gender, the platform retrieves the appropriate Akan name from a predefined dataset.
             For example:<br>

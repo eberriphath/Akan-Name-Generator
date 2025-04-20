@@ -18,12 +18,12 @@ h1 {
     display: flex;
     border-radius: 15px;
     margin-top: 30px;
-    background-color: grey;
+    background-color: rgb(100, 97, 97);
     
 
 }
 .p1 {
-    font-family: fantasy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -37,6 +37,12 @@ h2 {
 .table {
     text-align: center;
     border: 1px solid black;
+}
+
+.btn1 {
+    display: block;
+    margin: auto;
+    
 }
 
 
