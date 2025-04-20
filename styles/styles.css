@@ -16,4 +16,7 @@ h1 {
 .p1 {
     font-family: fantasy;
 }
+body {
+    background: linear-gradient(to right,teal,magenta,gold);
+}
 
