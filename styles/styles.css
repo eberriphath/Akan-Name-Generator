@@ -55,6 +55,7 @@ h2 {
     border-radius: 5px;
     text-align: center;
     margin-top: 30px;
+    justify-content: center;
 }
 
 
@@ -68,6 +69,7 @@ h2 {
 
 p4 {
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 
